@@ -27,6 +27,29 @@
         text-align: center;
       }
       tr:hover {background-color: #D6EEEE;}
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #c42121;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #e61f1faf;
+      }
 </style>
 <body>
 
@@ -50,5 +73,42 @@
 </table>
 <p>This is a paragraph.</p>
 
+
+<hr>
+
+<ul style="list-style-type:disc;">
+<li>Coffee</li>
+<li>Tea
+  <ul>
+    <li>Black tea</li>
+    <li>Green tea</li>
+  </ul>
+</li>
+<li>Milk</li>
+</ul>
+
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+
+
+
+
+
+
 </body>
+
 </html>
