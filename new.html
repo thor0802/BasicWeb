@@ -6,11 +6,11 @@
 </head>
 <style>
     table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
+        border: 10px solid black;
+        
         border-radius: 10px;
-        border-style:dashed ;
-        border-color: blanchedalmond;
+        border-style:double ;
+        border-color: rgb(236, 236, 0);
         border-spacing: 30px;
           
       }
@@ -26,7 +26,7 @@
       th{
         text-align: center;
       }
-      tr:hover {background-color: #D6EEEE;}
+      tr:hover {background-color: #030303;}
       ul {
         list-style-type: none;
         margin: 0;
@@ -50,11 +50,15 @@
       li a:hover {
         background-color: #e61f1faf;
       }
+      tr:nth-child(even){
+        background-color: #df1e1e;
+      }
 </style>
 <body>
 
 <h1>This is a Heading</h1>
 <table style="width:100%">
+  <caption>trying to build the table..</caption>
   <tr>
     <th style="width: 70%;" colspan="2">Company</th>
     <th>Contact</th>
@@ -102,12 +106,6 @@
   <dt>Milk</dt>
   <dd>- white cold drink</dd>
 </dl>
-
-
-
-
-
-
 
 </body>
 
